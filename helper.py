@@ -11,4 +11,7 @@ def fooi_pp(bedrag,personen):
         bedrag_pp = bedrag/personen
     except:
         bedrag_pp = "??"
-    uitvoer = f"Het bedrag per persoon is {bedrag_pp} euro."
+    return f"Het bedrag per persoon is {bedrag_pp} euro."
+b = int(input("Bedrag?"))
+p = int(input("Personen?"))
+print(fooi_pp(b,p))
