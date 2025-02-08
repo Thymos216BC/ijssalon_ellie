@@ -12,6 +12,3 @@ def fooi_pp(bedrag,personen):
     except:
         bedrag_pp = "??"
     return f"Het bedrag per persoon is {bedrag_pp} euro."
-b = int(input("Bedrag?"))
-p = int(input("Personen?"))
-print(fooi_pp(b,p))
