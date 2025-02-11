@@ -15,3 +15,7 @@ def onderstreep(tekst=""):
     uit.append(tekst)
     uit.append(len(tekst)*"=")
     return uit
+
+def som(dictionary):
+    uitvoer = sum(dict.values())
+    return uitvoer
