@@ -17,5 +17,5 @@ def onderstreep(tekst=""):
     return uit
 
 def som(dictionary):
-    uitvoer = sum(dict.values())
+    uitvoer = sum(dict.values(dictionary))
     return uitvoer
